@@ -133,6 +133,7 @@ icons.forEach((elem) => {
       navMenu.classList.remove("active");
       iconsDiv.classList.remove("active");
       body.classList.remove("active");
+      body.classList.remove("body--disabledScroll");
     }
   });
 });
